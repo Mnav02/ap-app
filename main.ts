@@ -169,6 +169,7 @@ car = sprites.create(img`
 controller.moveSprite(car)
 car.setStayInScreen(true)
 info.setLife(3)
+color.setColor(1, color.rgb(125, 53, 255))
 game.onUpdateInterval(1000, function () {
     info.changeScoreBy(1)
 })
